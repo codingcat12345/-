@@ -1,3 +1,4 @@
+
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
@@ -114,3 +115,4 @@ path3=np.asarray(path3)
 add_plot_path(path3,ax,xmin,xmax,ymin,ymax,'b')
 path4=np.asarray(path4)
 add_plot_path(path4,ax,xmin,xmax,ymin,ymax,'r')
+plt.show()
